@@ -1,0 +1,157 @@
+body {
+    background-color: DarkCyan;
+  }
+  
+h1 {
+    font-family: "Lucida Console";
+    color: DarkSlateGrey;
+    text-align: center;
+    background-color: Tan;
+    border: 5px solid white;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+h2 {
+    color: Teal;
+    font-family: Helvetica;
+    text-align: center;
+    background-color: Bisque;
+    border: 5px solid LightSeaGreen;
+    width: 1778px;
+    margin: 20px auto;
+    padding: 8px;
+  }
+
+h3 {
+    color: Teal;
+    font-family: Helvetica;
+    text-align: center;
+    background-color: Bisque;
+    width: 1700px;
+    margin: 0 auto;
+  }
+  
+p {
+    color: FireBrick;
+    display: inline;
+    font-style: italic;
+  }
+  
+table {
+    border: 2px solid MediumAquaMarine;
+    width: 1800px;
+    margin: 0 auto;
+    background-color: LightSeaGreen;
+  }
+  
+th {
+    font-family: Helvetica;
+    background-color: rgb(221, 186, 142);
+    color: DarkSlateGrey;
+    padding: 5px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    font-size: 22px;
+  }
+  
+td {
+    background-color: Bisque;
+    text-align: left;
+    color: Teal;
+    width: 300px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    font-family: Helvetica;
+    font-weight: 500;
+    padding: 8px 12px 8px 10px;
+  }
+  
+.tag {
+    background-color: black;
+    color: LimeGreen;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    width: 100px;
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
+  }
+  
+.description {
+    width: 700px;
+    padding: 10px 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    vertical-align: text-top;
+  }
+  
+.example {
+    background-color: Beige;
+    text-align: left;
+    font-family: "Lucida Console", monospace;
+    color: blue;
+    width: 700px;
+    font-size: 14px;
+    padding: 10px 30px;
+    line-height: 1.5;
+  }
+  
+.indent {
+    color: Beige;
+  }
+  
+.attribute {
+    color: Green;
+    font-family: "Lucida Console", monospace;
+    width: 400px;
+    text-align: center;
+  }
+  
+.string {
+    color: GoldenRod;
+  }
+  
+.result {
+    color: black;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+.property {
+    background-color: black;
+    color: LimeGreen;
+    text-align: center;
+    font-family: "Courier New", monospace;
+    width: 200px;
+    border-left: 2px solid grey;
+    border-top: 2px solid grey;
+    
+  }
+
+.value {
+    color: Green;
+    font-family: "Lucida Console", monospace;
+    width: 500px;
+    padding: 10px 10px;
+    line-height: 1.5;
+  }
+
+.cssexample {
+    background-color: Beige;
+    text-align: left;
+    font-family: "Lucida Console", monospace;
+    color: blue;
+    width: 400px;
+    font-size: 14px;
+    padding: 10px 10px;
+    line-height: 1.5;
+  }
+
+.selectorvalue {
+    width: 500px;
+    padding: 10px 10px;
+    font-weight: 600;
+    line-height: 1.5;
+    vertical-align: text-top;
+  }
