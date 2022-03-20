@@ -1,15 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quick Reference</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,300&family=Corben&family=Libre+Baskerville:ital@0;1&family=Lora:wght@600;700&family=Red+Hat+Display:ital@0;1&family=Red+Hat+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
   </head>
+
   <body>
 
-    <h1>HTML</h1>
-    <h2>Chingle Dingle! Here's some HTML Tags</h2>
+    <br>
+    
+    <section class="headercontainer">
+        <header>Full Development Cheatsheet and Quick Reference</header>
+    </section>
 
-    <table>
+    <br>
+    <br> 
+    <br>
+    <br>
+
+    <section class="titlecontainer">
+      <h1>HTML</h1>
+    </section>
+
+    <section class="container">
+      <h2>Chingle Dingle! Here's some useful HTML Tags</h2>
+    </section>
+
+    <br>
+
+    <section class="tcontainer">
+      <table>
       <thead>
         <tr>
           <th>Tag</th>
@@ -21,7 +47,7 @@
       <tbody>
         <tr>
           <td class="tag">&lt;span&gt;</td>
-          <td class="description">Selects a portion of html for styling or script manipulation. <p style="font-weight: bold;">It should be used only when no other semantic element is appropriate.</p></td>
+          <td class="description">Selects a portion of html for styling or script manipulation. <b>It should be used only when no other semantic element is appropriate.</b></td>
           <td class="example"><p>&lt;p&gt;&lt;span&gt;</p><p class="result">Some text</p><p>&lt;/span&gt;&lt;/p&gt;</p></td>
           <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span#attributes">MDN Reference</a></td>
         </tr>
@@ -30,7 +56,7 @@
           <td class="tag">&lt;link/&gt;</td>
           <td class="description">Specifies relationships between the current document and an external resource. <p style="font-weight: bold;">This element is most commonly used to link to stylesheets.</p></td>
           <td class="example">
-            <p>&lt;link</p><p class="attribute"> href=</p><p class="string">"style.css"</p><p class="attribute"> rel=</p><p class="string">"stylesheet"</p><p>&gt;</p>
+            <p>&lt;link</p><span class="attribute"> href=</p><span class="string">"style.css"</p><span class="attribute"> rel=</p><span class="string">"stylesheet"</p><p>&gt;</p>
           </td>
           <td class="attribute">href, rel, type, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attributes">MDN Reference</a></td>
         </tr>
@@ -69,7 +95,7 @@
             <p class="indent">****</p><p class="result"> supermarkets.</p><p>&lt;/p&gt;</p><br>
             <p class="indent">****</p><p>&lt;p&gt;<p class="result">...</p><p>&lt;/p&gt;</p><br>
             <p class="indent">****</p><p>&lt;p&gt;<p class="result">...</p><p>&lt;/p&gt;</p><br>
-            <p class="indent">**</p><p>&lt;/article&gt;</p><br>
+            <p class="indent">**</p><p>&lt;/article&gt;</p><br><br>
             <p>&lt;/main&gt;</p>
           </td>
           <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main#attributes">MDN Reference</a></td>
@@ -171,56 +197,70 @@
       -->
 
       </tbody>
-    </table>
-
-    <h1>CSS</h1>
+      </table>
+    </section>
     
-    <h2>Dingle Dangle! Here's some CSS properties!</h2>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
 
-    <table>
-      <thead>
-        <tr>
-          <th>Property</th>
-          <th>Description</th>
-          <th>Example(s)</th>
-          <th>Value(s)</th>
-        </tr>
-      </thead>
+    <section class="titlecontainer">
+      <h1>CSS</h1>
+    </section>
+
+    <section class="container"> 
+      <h2>Dingle Dangle! Here's some CSS properties!</h2>
+    </section>
+
+    <section class="tcontainer">
+      <table>
+        <thead>
+          <tr>
+            <th>Property</th>
+            <th>Description</th>
+            <th>Example(s)</th>
+            <th>Value(s)</th>
+          </tr>
+        </thead>
         
-      <tbody>
+        <tbody>
 
-        <tr>
-          <td class="property">text-align</td>
-          <td class="description">Aligns Text in a document horizontally and vertically.</td>
-          <td class="cssexample">
-            <p>h1</p><p class="result">{</p><br>
+          <tr>
+            <td class="property">text-align</td>
+            <td class="description">Aligns Text in a document horizontally and vertically.</td>
+            <td class="cssexample">
+              <p>h1</p><p class="result">{</p><br>
               <p class="indent">**</p><p class="attribute">text-align</p><p class="result">:</p> left<p class="result">;</p><br>
               <p class="result">}</p>
-          </td>
-          <td class="value"><p class="attribute">right | left | center | justify</p><br><p>Default:</p><p class="attribute">left</p></td>
-        </tr>
+            </td>
+            <td class="value"><p class="attribute">right | left | center | justify</p><br><p>Default:</p><p class="attribute">left</p></td>
+          </tr>
 
-        <tr>
-          <td class="property">vertical-align</td>
-          <td class="description">Controls vertical positioning within the containing element.</td>
-          <td class="cssexample">
-            <p>img</p><p class="result">{</p><br>
+          <tr>
+            <td class="property">vertical-align</td>
+            <td class="description">Controls vertical positioning within the containing element.</td>
+            <td class="cssexample">
+              <p>img</p><p class="result">{</p><br>
               <p class="indent">**</p><p class="attribute">vertical-align</p><p class="result">:</p> text-bottom<p class="result">;</p><br>
               <p class="result">}</p>
-          </td>
-          <td class="value"><p class="attribute">baseline | sub | super | top | text-top <br> middle | middle-bottom | text-bottom</p><br><p>Default:</p><p class="attribute">baseline</p> </td>
-        </tr>
+            </td>
+            <td class="value"><p class="attribute">baseline | sub | super | top | text-top <br> middle | middle-bottom | text-bottom</p><br><p>Default:</p><p class="attribute">baseline</p> </td>
+          </tr>
 
-        <tr>
-          <td class="property">line-height</td>
-          <td class="description">Adjusts the spacing between each line in a document.<p> Works like line spacing.</p></td>
-          <td class="cssexample">
-            <p>p</p><p class="result">{</p><br>
-            <p class="indent">**</p><p class="attribute">line-height</p><p class="result">:</p> 2<p class="result">;</p><br>
-            <p class="result">}</p>
-          </td>
-          <td class="value"><p class="attribute">normal | number | length | percentage</p><br><p>Default:</p><p class="attribute">normal</p></td>
-        </tr>
+          <tr>
+            <td class="property">line-height</td>
+            <td class="description">Adjusts the spacing between each line in a document.<p> Works like line spacing.</p></td>
+            <td class="cssexample">
+              <p>p</p><p class="result">{</p><br>
+              <p class="indent">**</p><p class="attribute">line-height</p><p class="result">:</p> 2<p class="result">;</p><br>
+              <p class="result">}</p>
+            </td>
+            <td class="value"><p class="attribute">normal | number | length | percentage</p><br><p>Default:</p><p class="attribute">normal</p></td>
+          </tr>
 
 <!--Template for more rows
         <tr>
@@ -231,25 +271,35 @@
         </tr>
 -->
 
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </section>
+
+    <br> 
+    <br> 
+    <br>
+    <br>
+    <br>
+
+    <section class="container">
+      <h2>Dangle Langle! Here's some CSS selectors!</h2>
+    </section>
     
-    <h2>Dangle Langle! Here's some CSS selectors!</h2>
+    <section class="tcontainer">
+      <table>
+        <thead>
+           <tr>
+            <th>Selector Name</th>
+            <th>Description</th>
+            <th>Syntax</th>
+            <th>Example</th>
+           </tr>
+         </thead>
 
-    <table>
-      <thead>
+        <tbody>
+
         <tr>
-          <th>Selector Name</th>
-          <th>Description</th>
-          <th>Syntax</th>
-          <th>Example</th>
-        </tr>
-      </thead>
-
-      <tbody>
-
-        <tr>
-          <td colspan="4"><h3>Basic Selectors</h3></th>
+          <td colspan="4"><h3>Basic Selectors</h3></td>
         </tr>
 
         <tr>
@@ -355,8 +405,12 @@
           <td class="selectorvalue"><p>p::first-line</p> will match the first line of all <p>&lt;p&gt;</p> elements</td>
         </tr>
 
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </section>
+    <br>
+    <br>
+    <br>
 
   </body>
 </html>

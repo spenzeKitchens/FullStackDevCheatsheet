@@ -1,58 +1,73 @@
 body {
-    background-color: DarkCyan;
+    background-color: darkcyan;
   }
+
+header {
+    color: darkcyan;
+    font-family: "Corben", serif;
+    text-align: center;
+    background-color: Bisque;
+    border-bottom: 15px solid LightSeaGreen;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
   
 h1 {
-    font-family: "Lucida Console";
+    font-family: "Red Hat Mono", monospace;
     color: DarkSlateGrey;
     text-align: center;
     background-color: Tan;
-    border: 5px solid white;
-    width: 200px;
-    margin: 0 auto;
-    margin-top: 20px;
+    border-bottom: 15px solid white;
+    padding: 7px;
+    font-size: 50px;
+    letter-spacing: 3px;
   }
   
 h2 {
     color: Teal;
-    font-family: Helvetica;
+    font-family: "Lora", serif;
     text-align: center;
+    font-size: 30px;
     background-color: Bisque;
-    border: 5px solid LightSeaGreen;
-    width: 1778px;
-    margin: 20px auto;
-    padding: 8px;
+    border-bottom: 15px solid LightSeaGreen;
+    padding: 10px;
   }
 
-h3 {
-    color: Teal;
-    font-family: Helvetica;
+[colspan] {
+    color: Bisque;
+    font-family: "Libre Baskerville", serif;
     text-align: center;
-    background-color: Bisque;
-    width: 1700px;
-    margin: 0 auto;
-  }
+    font-size: 25px;
+    background-color: darkcyan;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
   
 p {
     color: FireBrick;
     display: inline;
-    font-style: italic;
-  }
+}
+
+b {
+    color: FireBrick;
+    display: inline;
+}
   
 table {
-    border: 2px solid MediumAquaMarine;
-    width: 1800px;
-    margin: 0 auto;
-    background-color: LightSeaGreen;
+    border-spacing: 0;
   }
   
 th {
-    font-family: Helvetica;
-    background-color: rgb(221, 186, 142);
+    font-family: "Lora", serif;
+    background-color: rgb(187, 159, 107);
     color: DarkSlateGrey;
     padding: 5px;
-    border-left: 2px solid black;
-    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;  
+    border-left: 1px solid black; 
     font-size: 22px;
   }
   
@@ -60,40 +75,41 @@ td {
     background-color: Bisque;
     text-align: left;
     color: Teal;
-    width: 300px;
-    border-left: 2px solid black;
-    border-top: 2px solid black;
-    font-family: Helvetica;
-    font-weight: 500;
-    padding: 8px 12px 8px 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black; 
+    font-family: "Lora", serif;
+    font-size: 20px;
   }
   
 .tag {
     background-color: black;
     color: LimeGreen;
     text-align: center;
-    font-family: "Courier New", monospace;
+    font-family: "Chakra Petch", monospace;
+    font-weight: bold;
     width: 100px;
-    border-left: 2px solid grey;
-    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 10px;
   }
   
 .description {
     width: 700px;
     padding: 10px 20px;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.2;
     vertical-align: text-top;
   }
   
 .example {
     background-color: Beige;
     text-align: left;
-    font-family: "Lucida Console", monospace;
+    font-family: "Red Hat Display", sans-serif;
     color: blue;
-    width: 700px;
-    font-size: 14px;
-    padding: 10px 30px;
+    width: 800px;
+    font-size: 18px;
+    padding: 10px 20px;
     line-height: 1.5;
   }
   
@@ -103,18 +119,19 @@ td {
   
 .attribute {
     color: Green;
-    font-family: "Lucida Console", monospace;
+    font-family: "Red Hat Display", sans-serif;
     width: 400px;
     text-align: center;
   }
   
 .string {
     color: GoldenRod;
+    font-family: "Red Hat Display", sans-serif;
   }
   
 .result {
     color: black;
-    font-style: italic;
+    font-family: "Libre Baskerville", serif;
     line-height: 1.5;
   }
 
@@ -122,31 +139,46 @@ td {
     background-color: black;
     color: LimeGreen;
     text-align: center;
-    font-family: "Courier New", monospace;
+    font-family: "Red Hat Mono", monospace;
     width: 200px;
-    border-left: 2px solid grey;
-    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 10px;
     
   }
 
 .value {
     color: Green;
-    font-family: "Lucida Console", monospace;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
     width: 500px;
-    padding: 10px 10px;
+    padding: 10px;
     line-height: 1.5;
   }
 
 .cssexample {
     background-color: Beige;
     text-align: left;
-    font-family: "Lucida Console", monospace;
+    font-family: "Red Hat Display", sans-serif;
     color: blue;
     width: 400px;
-    font-size: 14px;
-    padding: 10px 10px;
+    font-size: 18px;
+    padding: 10px 20px;
     line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
   }
+
+.cssexample2 {
+    background-color: Beige;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    color: blue;
+    width: 400px;
+    font-size: 18px;
+    padding: 10px 20px;
+    line-height: 1.5;
+}
 
 .selectorvalue {
     width: 500px;
@@ -154,4 +186,29 @@ td {
     font-weight: 600;
     line-height: 1.5;
     vertical-align: text-top;
-  }
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: rgba(76, 76, 93, 0.89) 0px 7px 29px 0px;
+}
+
+.headercontainer {
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: rgba(76, 76, 93, 0.89) 0px 7px 29px 0px;
+}
+
+.titlecontainer {
+    width: 14%;
+    margin: 0 auto;
+    box-shadow: rgba(76, 76, 93, 0.89) 0px 7px 29px 0px;
+}
+
+.tcontainer {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: rgba(76, 76, 93, 0.89) 0px 7px 29px 0px;
+}
+  
