@@ -1,190 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quick Reference</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,300&family=Corben&family=Libre+Baskerville:ital@0;1&family=Lora:wght@600;700&family=Red+Hat+Display:ital@0;1&family=Red+Hat+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Quick Reference</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,300&family=Corben&family=Libre+Baskerville:ital@0;1&family=Lora:wght@600;700&family=Red+Hat+Display:ital@0;1&family=Red+Hat+Mono:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet">
+</head>
 
-  <body>
+<body>
 
-    <br>
-    
-    <section class="headercontainer">
-      <h1>Full Stack Development Cheatsheet and Quick Reference</h1>
-    </section>
+  <br>
 
-    <br>
-    <br> 
-    <br>
-    <br>
+  <section class="headercontainer">
+    <h1>Full Stack Development Cheatsheet and Quick Reference</h1>
+  </section>
 
-    <section class="titlecontainer">
-      <h2>HTML</h2>
-    </section>
+  <br>
+  <br>
+  <br>
+  <br>
 
-    
+  <section class="titlecontainer">
+    <h2>HTML</h2>
+  </section>
 
-    <section class="tcontainer">
 
-      <h3>Chingle Dingle! Here's some useful HTML Tags</h3>
 
-      <table>
-        <thead>
+  <section class="tcontainer">
+
+    <h3>Chingle Dingle! Here's some useful HTML Tags</h3>
+
+    <table>
+      <thead>
         <tr>
           <th>Tag</th>
           <th>Description</th>
           <th>Example(s)</th>
           <th>Attributes</th>
         </tr>
-        </thead>
-        <tbody>
+      </thead>
+      <tbody>
         <tr>
           <td class="tag">&lt;span&gt;</td>
-          <td class="description">Selects a portion of html for styling or script manipulation. <b>It should be used only when no other semantic element is appropriate.</b></td>
-          <td class="example"><p>&lt;p&gt;&lt;span&gt;</p><p class="result">Some text</p><p>&lt;/span&gt;&lt;/p&gt;</p></td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span#attributes">MDN Reference</a></td>
+          <td class="description">Selects a portion of html for styling or script manipulation. <b>It should be used
+              only when no other semantic element is appropriate.</b></td>
+          <td class="example">
+            <p>&lt;p&gt;&lt;span&gt;</p>
+            <p class="result">Some text</p>
+            <p>&lt;/span&gt;&lt;/p&gt;</p>
+          </td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;link/&gt;</td>
-          <td class="description">Specifies relationships between the current document and an external resource. <b>This element is most commonly used to link to stylesheets.</b></td>
-          <td class="example"><p>&lt;link</p><span class="attribute"> href=</span><span class="string">"style.css"</span><span class="attribute"> rel=</span><span class="string">"stylesheet"</span><p>&gt;</p></td>
-          <td class="attribute">href, rel, type, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attributes">MDN Reference</a></td>
+          <td class="description">Specifies relationships between the current document and an external resource. <b>This
+              element is most commonly used to link to stylesheets.</b></td>
+          <td class="example">
+            <p>&lt;link</p><span class="attribute"> href=</span><span class="string">"style.css"</span><span
+              class="attribute"> rel=</span><span class="string">"stylesheet"</span>
+            <p>&gt;</p>
+          </td>
+          <td class="tattribute">href, rel, type, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;dialog&gt;</td>
-          <td class="description">Represents a dialog box or other interactive component, such as a dismissible alert, inspector, or subwindow.</td>
+          <td class="description">Represents a dialog box or other interactive component, such as a dismissible alert,
+            inspector, or subwindow.</td>
           <td class="example">
-            <p>&lt;dialog</p><p class="attribute"> open</p><p>&gt;  </p><br>
-            <p class="indent">**</p><p>&lt;p&gt;</p><p class="result">Greetings, one and all!</p><p>&lt;/p&gt;</p><br>
+            <p>&lt;dialog</p>
+            <p class="attribute"> open</p>
+            <p>&gt; </p><br>
+            <p class="indent">**</p>
+            <p>&lt;p&gt;</p>
+            <p class="result">Greetings, one and all!</p>
+            <p>&lt;/p&gt;</p><br>
             <p>&lt;/dialog&gt;</p>
           </td>
-          <td class="attribute">open, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog#attributes">MDN Reference</a></td>
+          <td class="tattribute">open, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;a&gt;</td>
-          <td class="description">With its <p class="attribute">href</p> attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</td>
+          <td class="description">With its <p class="attribute">href</p> attribute, creates a hyperlink to web pages,
+            files, email addresses, locations in the same page, or anything else a URL can address.</td>
           <td class="example">
-            <p>&lt;a</p><p class="attribute"> href=</p><p class="string">"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#examples"</p><p>&gt;</p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#examples">MDN Reference</a><p>&lt;/a&gt;</p>
+            <p>&lt;a</p>
+            <p class="attribute"> href=</p>
+            <p class="string">"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#examples"</p>
+            <p>&gt;</p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#examples">MDN Reference</a>
+            <p>&lt;/a&gt;</p>
           </td>
-          <td class="attribute">href, rel, type, target, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attributes">MDN Reference</a></td>
+          <td class="tattribute">href, rel, type, target, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attributes">MDN Reference</a></td>
         </tr>
-        
+
         <tr>
           <td class="tag">&lt;main&gt;</td>
-          <td class="description">Represents the dominant content of the <p>&lt;body&gt;</p> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+          <td class="description">Represents the dominant content of the <p>&lt;body&gt;</p> of a document. The main
+            content area consists of content that is directly related to or expands upon the central topic of a
+            document, or the central functionality of an application.</td>
           <td class="example">
             <p>&lt;main&gt;</p><br>
-            <p class="indent">**</p><p>&lt;h1&gt;</p><p class="result">Apples</p><p>&lt;h1&gt;</p><br>
-            <p class="indent">**</p><p>&lt;p&gt;</p><p class="result">The apple is the pomaceous fruit of the apple tree.</p><br>
+            <p class="indent">**</p>
+            <p>&lt;h1&gt;</p>
+            <p class="result">Apples</p>
+            <p>&lt;h1&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;p&gt;</p>
+            <p class="result">The apple is the pomaceous fruit of the apple tree.</p><br>
             <br>
-            <p class="indent">**</p><p>&lt;article&gt;</p><br>
-            <p class="indent">****</p><p>&lt;h2&gt;</p><p class="result">Red Delicious</p><p>&lt;h2&gt;</p><br>
-            <p class="indent">****</p><p>&lt;p&gt;</p><p class="result">These bright red apples are the most common found in many</p><br>
-            <p class="indent">****</p><p class="result"> supermarkets.</p><p>&lt;/p&gt;</p><br>
-            <p class="indent">****</p><p>&lt;p&gt;<p class="result">...</p><p>&lt;/p&gt;</p><br>
-            <p class="indent">****</p><p>&lt;p&gt;<p class="result">...</p><p>&lt;/p&gt;</p><br>
-            <p class="indent">**</p><p>&lt;/article&gt;</p><br><br>
+            <p class="indent">**</p>
+            <p>&lt;article&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;h2&gt;</p>
+            <p class="result">Red Delicious</p>
+            <p>&lt;h2&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;p&gt;</p>
+            <p class="result">These bright red apples are the most common found in many</p><br>
+            <p class="indent">****</p>
+            <p class="result"> supermarkets.</p>
+            <p>&lt;/p&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;p&gt;
+            <p class="result">...</p>
+            <p>&lt;/p&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;p&gt;
+            <p class="result">...</p>
+            <p>&lt;/p&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;/article&gt;</p><br><br>
             <p>&lt;/main&gt;</p>
           </td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main#attributes">MDN Reference</a></td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;address&gt;</td>
-          <td class="description">Indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</td>
-          <td class="example">    
-          <p>&lt;address&gt;</p><br>
-            <p class="indent">**</p><p class="result">You can contact author at </p><p>&lt;a</p><p class="attribute"> href=</p><p class="string">"http://www.somedomain.com/contact"</p><p>&gt;</p><br>
-            <p class="indent">**</p><p class="result">www.somedomain.com</p><p>/a&gt;</p>.<p>&lt;br&gt;</p><br>
-            <p class="indent">**</p><p class="result">If you see any bugs, please </p><p>&lt;a</p><p class="attribute"> href=</p><p class="string">"mailto:webmaster@somedomain.com"<p>&gt;</p><br>
-            <p class="indent">**</p><p class="result">contact webmaster</p><p>/a&gt;</p>.<p>&lt;br&gt;</p><br>
-            <p class="indent">**</p><p class="result">You may also want to visit us:</p><p>&lt;br&gt;</p><br>
-            <p class="indent">**</p><p class="result">Mozilla Foundation</p><p>&lt;br&gt;</p><br>
-            <p class="indent">**</p><p class="result">331 E Evelyn Ave</p><p>&lt;br&gt;</p><br>
-            <p class="indent">**</p><p class="result">Mountain View, CA 94041</p><p>&lt;br&gt;</p><br>
-            <p class="indent">**</p><p class="result">USA</p><br>
-          <p>&lt;/address&gt;</p>
-        </td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address#attributes">MDN Reference</a></td>
+          <td class="description">Indicates that the enclosed HTML provides contact information for a person or people,
+            or for an organization.</td>
+          <td class="example">
+            <p>&lt;address&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">You can contact author at</p>
+            <p>&lt;a</p>
+            <p class="attribute"> href=</p>
+            <p class="string">"http://www.somedomain.com/contact"</p>
+            <p>&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">www.somedomain.com</p>
+            <p>&lt;/a&gt;</p>.<p>&lt;br&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">If you see any bugs, please</p>
+            <p>&lt;a</p>
+            <p class="attribute"> href=</p>
+            <p class="string">"mailto:webmaster@somedomain.com"
+            <p>&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">contact webmaster</p>
+            <p>&lt;/a&gt;</p>.<p>&lt;br&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">You may also want to visit us:</p>
+            <p>&lt;br&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">Mozilla Foundation</p>
+            <p>&lt;br&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">331 E Evelyn Ave</p>
+            <p>&lt;br&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">Mountain View, CA 94041</p>
+            <p>&lt;br&gt;</p><br>
+            <p class="indent">**</p>
+            <p class="result">USA</p><br>
+            <p>&lt;/address&gt;</p>
+          </td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;article&gt;</td>
-          <td class="description">Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).</td>
+          <td class="description">Represents a self-contained composition in a document, page, application, or site,
+            which is intended to be independently distributable or reusable (e.g., in syndication).</td>
           <td class="example">
-            <p>&lt;article</p><p class="attribute"> class=</p><p class="string">"user_review"</p><p>&gt;</p><br>
-            <p class="indent">**</p><p>&lt;h4&gt;</p><p class="result">Love the dinos!</p><p>&lt;/h4&gt;</p><br>
+            <p>&lt;article</p>
+            <p class="attribute"> class=</p>
+            <p class="string">"user_review"</p>
+            <p>&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;h4&gt;</p>
+            <p class="result">Love the dinos!</p>
+            <p>&lt;/h4&gt;</p><br>
             <p class="indent">**</p><p>&lt;p&gt;</p><p class="result">I agree, dinos are my favorite.</p><p>&lt;/p&gt;</p><br>
-            <p class="indent">**</p><p>&lt;footer&gt;</p><br>
-            <p class="indent">****</p><p>&lt;p&gt;</p><br>
-            <p class="indent">******</p><p class="result">Posted on</p><br>     
-            <p class="indent">******</p><p>&lt;time</p><p class="attribute"> datetime=</p><p class="string">"2015-05-17 19:00"</p><p>&gt;</p><p class="result">May 17</p><p>&lt;/time&gt;</p><br>
-            <p class="indent">******</p><p class="result">by Tom.</p><br>
-            <p class="indent">****</p><p>&lt;/p&gt;</p><br>
-            <p class="indent">**</p><p>&lt;/footer&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;footer&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;p&gt;</p><br>
+            <p class="indent">******</p>
+            <p class="result">Posted on</p><br>
+            <p class="indent">******</p>
+            <p>&lt;time</p>
+            <p class="attribute"> datetime=</p>
+            <p class="string">"2015-05-17 19:00"</p>
+            <p>&gt;</p>
+            <p class="result">May 17</p>
+            <p>&lt;/time&gt;</p><br>
+            <p class="indent">******</p>
+            <p class="result">by Tom.</p><br>
+            <p class="indent">****</p>
+            <p>&lt;/p&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;/footer&gt;</p><br>
             <p>&lt;/article&gt;</p>
           </td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article#attributes">MDN Reference</a></td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;section&gt;</td>
-          <td class="description">Represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+          <td class="description">Represents a generic standalone section of a document, which doesn't have a more
+            specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
+          </td>
           <td class="example">
             <p>&lt;section&gt;</p><br>
-            <p class="indent">**</p><p>&lt;h2&gt;</p><p class="result">Heading</p><p>&lt;/h2&gt;</p><br>
-            <p class="indent">**</p><p>&lt;p&gt;</p><p class="result">Bunch of awesome content.</p><p>&lt;/p&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;h2&gt;</p>
+            <p class="result">Heading</p>
+            <p>&lt;/h2&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;p&gt;</p>
+            <p class="result">Bunch of awesome content.</p>
+            <p>&lt;/p&gt;</p><br>
             <p>&lt;/section&gt;</p>
           </td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section#attributes">MDN Reference</a></td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;nav&gt;</td>
-          <td class="description">Represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</td>
+          <td class="description">Represents a section of a page whose purpose is to provide navigation links, either
+            within the current document or to other documents. Common examples of navigation sections are menus, tables
+            of contents, and indexes.</td>
           <td class="example">
-            <p>&lt;nav</p><p class="attribute"> class=</p><p class="string">"menu"</p><p>&gt;</p><br>
-            <p class="indent">**</p><p>&lt;ul&gt;</p><br>
-            <p class="indent">****</p><p>&lt;li&gt;</p><p>&lt;a</p><p class="attribute"> href=</p><p class="string">"#"</p><p>&gt;</p><p class="result">Home</p><p>&lt;/a&gt;&lt;/li&gt;</p><br>
-            <p class="indent">****</p><p>&lt;li&gt;</p><p>&lt;a</p><p class="attribute"> href=</p><p class="string">"#"</p><p>&gt;</p><p class="result">About</p><p>&lt;/a&gt;&lt;/li&gt;</p><br>
-            <p class="indent">****</p><p>&lt;li&gt;</p><p>&lt;a</p><p class="attribute"> href=</p><p class="string">"#"</p><p>&gt;</p><p class="result">Contact</p><p>&lt;/a&gt;&lt;/li&gt;</p><br>
-            <p class="indent">**</p><p>&lt;/ul&gt;</p><br>
+            <p>&lt;nav</p>
+            <p class="attribute"> class=</p>
+            <p class="string">"menu"</p>
+            <p>&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;ul&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;li&gt;</p>
+            <p>&lt;a</p>
+            <p class="attribute"> href=</p>
+            <p class="string">"#"</p>
+            <p>&gt;</p>
+            <p class="result">Home</p>
+            <p>&lt;/a&gt;&lt;/li&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;li&gt;</p>
+            <p>&lt;a</p>
+            <p class="attribute"> href=</p>
+            <p class="string">"#"</p>
+            <p>&gt;</p>
+            <p class="result">About</p>
+            <p>&lt;/a&gt;&lt;/li&gt;</p><br>
+            <p class="indent">****</p>
+            <p>&lt;li&gt;</p>
+            <p>&lt;a</p>
+            <p class="attribute"> href=</p>
+            <p class="string">"#"</p>
+            <p>&gt;</p>
+            <p class="result">Contact</p>
+            <p>&lt;/a&gt;&lt;/li&gt;</p><br>
+            <p class="indent">**</p>
+            <p>&lt;/ul&gt;</p><br>
             <p>&lt;/nav&gt;</p>
           </td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav#attributes">MDN Reference</a></td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;i&gt;</td>
-          <td class="description">Represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others.</td>
+          <td class="description">Represents a range of text that is set off from the normal text for some reason, such
+            as idiomatic text, technical terms, taxonomical designations, among others.</td>
           <td class="example">
-            <p>&lt;p&gt;</p><p class="result">The Latin phrase </p><p>&lt;i&gt;</p><p class="result">Veni, vidi, vici</p><p>&lt;/i&gt;</p><p class="result"> is often
-            mentioned in music, art, and literature.</p><p>&lt;/p&gt;</p>
+            <p>&lt;p&gt;</p>
+            <p class="result">The Latin phrase </p>
+            <p>&lt;i&gt;</p>
+            <p class="result">Veni, vidi, vici</p>
+            <p>&lt;/i&gt;</p>
+            <p class="result"> is often
+              mentioned in music, art, and literature.</p>
+            <p>&lt;/p&gt;</p>
           </td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i#attributes">MDN Reference</a></td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i#attributes">MDN Reference</a></td>
         </tr>
 
         <tr>
           <td class="tag">&lt;small&gt;</td>
-          <td class="description">Represents side-comments and small print, like copyright and legal text, independent of its styled presentation.</td>
+          <td class="description">Represents side-comments and small print, like copyright and legal text, independent
+            of its styled presentation.</td>
           <td class="example">
-            <p>&lt;p&gt;</p><p class="result">This is the first sentence.</p><br>
-            <p class="indent">**</p><p>&lt;small&gt;</p><p class="result">This whole sentence is in small letters.</p><p>&lt;/small&gt;</p><br>
+            <p>&lt;p&gt;</p>
+            <p class="result">This is the first sentence.</p><br>
+            <p class="indent">**</p>
+            <p>&lt;small&gt;</p>
+            <p class="result">This whole sentence is in small letters.</p>
+            <p>&lt;/small&gt;</p><br>
             <p>&lt;/p&gt;</p>
           </td>
-          <td class="attribute">global only, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small#attributes">MDN Reference</a></td>
+          <td class="tattribute">global only, <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small#attributes">MDN Reference</a></td>
         </tr>
 
-      <!--Template for more rows
+        <!--Template for more rows
         <tr>
           <td class="tag">&lt;&gt;</td>
           <td class="description"></td>
@@ -193,68 +340,91 @@
         </tr>
       -->
 
-        </tbody>
-      </table>
-    </section>
-    
-    <br> 
-    <br>
-    <br>
-    
-    <section class="titlecontainer">
-      <h2>CSS</h2>
-    </section>
+      </tbody>
+    </table>
+  </section>
 
-    <br>
+  <br>
+  <br>
+  <br>
 
-    <section class="tcontainer">
-      <h3>Dingle Dangle! Here's some CSS properties!</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Property</th>
-            <th>Description</th>
-            <th>Example(s)</th>
-            <th>Value(s)</th>
-          </tr>
-        </thead>
-        
-        <tbody>
+  <section class="titlecontainer">
+    <h2>CSS</h2>
+  </section>
 
-          <tr>
-            <td class="property">text-align</td>
-            <td class="description">Aligns Text in a document horizontally and vertically.</td>
-            <td class="cssexample">
-              <p>h1</p><p class="result">{</p><br>
-              <p class="indent">**</p><p class="attribute">text-align</p><p class="result">:</p> left<p class="result">;</p><br>
-              <p class="result">}</p>
-            </td>
-            <td class="value"><p class="attribute">right | left | center | justify</p><br><p>Default:</p><p class="attribute">left</p></td>
-          </tr>
+  <br>
 
-          <tr>
-            <td class="property">vertical-align</td>
-            <td class="description">Controls vertical positioning within the containing element.</td>
-            <td class="cssexample">
-              <p>img</p><p class="result">{</p><br>
-              <p class="indent">**</p><p class="attribute">vertical-align</p><p class="result">:</p> text-bottom<p class="result">;</p><br>
-              <p class="result">}</p>
-            </td>
-            <td class="value"><p class="attribute">baseline | sub | super | top | text-top <br> middle | middle-bottom | text-bottom</p><br><p>Default:</p><p class="attribute">baseline</p> </td>
-          </tr>
+  <section class="tcontainer">
+    <h3>Dingle Dangle! Here's some CSS properties!</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Description</th>
+          <th>Example(s)</th>
+          <th>Value(s)</th>
+        </tr>
+      </thead>
 
-          <tr>
-            <td class="property">line-height</td>
-            <td class="description">Adjusts the spacing between each line in a document.<p> Works like line spacing.</p></td>
-            <td class="cssexample">
-              <p>p</p><p class="result">{</p><br>
-              <p class="indent">**</p><p class="attribute">line-height</p><p class="result">:</p> 2<p class="result">;</p><br>
-              <p class="result">}</p>
-            </td>
-            <td class="value"><p class="attribute">normal | number | length | percentage</p><br><p>Default:</p><p class="attribute">normal</p></td>
-          </tr>
+      <tbody>
 
-<!--Template for more rows
+        <tr>
+          <td class="property">text-align</td>
+          <td class="description">Aligns Text in a document horizontally and vertically.</td>
+          <td class="cssexample">
+            <p>h1</p>
+            <p class="result">{</p><br>
+            <p class="indent">**</p>
+            <p class="attribute">text-align</p>
+            <p class="result">:</p> left<p class="result">;</p><br>
+            <p class="result">}</p>
+          </td>
+          <td class="value">
+            <p class="attribute">right | left | center | justify</p><br>
+            <p>Default:</p>
+            <p class="attribute">left</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="property">vertical-align</td>
+          <td class="description">Controls vertical positioning within the containing element.</td>
+          <td class="cssexample">
+            <p>img</p>
+            <p class="result">{</p><br>
+            <p class="indent">**</p>
+            <p class="attribute">vertical-align</p>
+            <p class="result">:</p> text-bottom<p class="result">;</p><br>
+            <p class="result">}</p>
+          </td>
+          <td class="value">
+            <p class="attribute">baseline | sub | super | top | text-top <br> middle | middle-bottom | text-bottom</p>
+            <br>
+            <p>Default:</p>
+            <p class="attribute">baseline</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="property">line-height</td>
+          <td class="description">Adjusts the spacing between each line in a document.<p> Works like line spacing.</p>
+          </td>
+          <td class="cssexample">
+            <p>p</p>
+            <p class="result">{</p><br>
+            <p class="indent">**</p>
+            <p class="attribute">line-height</p>
+            <p class="result">:</p> 2<p class="result">;</p><br>
+            <p class="result">}</p>
+          </td>
+          <td class="value">
+            <p class="attribute">normal | number | length | percentage</p><br>
+            <p>Default:</p>
+            <p class="attribute">normal</p>
+          </td>
+        </tr>
+
+        <!--Template for more rows
         <tr>
           <td class="property"></td>
           <td class="description"></td>
@@ -263,146 +433,216 @@
         </tr>
 -->
 
-        </tbody>
-      </table>
-    </section>
+      </tbody>
+    </table>
+  </section>
 
-    <br> 
-    <br> 
-    <br>
-    <br>
-    <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
-    <section class="tcontainer">
+  <section class="tcontainer">
 
-       <h3>Dangle Langle! Here's some CSS selectors!</h3>
+    <h3>Dangle Langle! Here's some CSS selectors!</h3>
 
-      <table>
-        <thead>
-           <tr>
-            <th>Selector Name</th>
-            <th>Description</th>
-            <th>Syntax</th>
-            <th>Example</th>
-           </tr>
-         </thead>
+    <table>
+      <thead>
+        <tr>
+          <th>Selector Name</th>
+          <th>Description</th>
+          <th>Syntax</th>
+          <th>Example</th>
+        </tr>
+      </thead>
 
-        <tbody>
+      <tbody>
 
         <tr>
-          <td colspan="4"><h4>Basic Selectors</h4></td>
+          <td colspan="4">
+            <h4>Basic Selectors</h4>
+          </td>
         </tr>
 
         <tr>
           <td class="property">Universal Selector</td>
-          <td class="description">Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.</td>
-          <td class="cssexample"><p>* ns|* *|*</p></td>
-          <td class="selectorvalue"><p>*</p> will match all the elements of the document.</td>
+          <td class="description">Selects all elements. Optionally, it may be restricted to a specific namespace or to
+            all namespaces.</td>
+          <td class="cssexample">
+            <p>* ns|* *|*</p>
+          </td>
+          <td class="selectorvalue">
+            <p>*</p> will match all the elements of the document.
+          </td>
         </tr>
 
         <tr>
           <td class="property">Type Selector</td>
           <td class="description">Selects all elements that have the given node name.</td>
-          <td class="cssexample"><p>elementname</p></td>
-          <td class="selectorvalue"><p>input</p> will match any <p>&lt;input&gt;</p> the elements of the document.</td>
+          <td class="cssexample">
+            <p>elementname</p>
+          </td>
+          <td class="selectorvalue">
+            <p>input</p> will match any <p>&lt;input&gt;</p> the elements of the document.
+          </td>
         </tr>
 
         <tr>
           <td class="property">Class Selector</td>
-          <td class="description">Selects all elements that have the given <p class="attribute">class</p> attribute.</td>
-          <td class="cssexample"><p>.classname</p></td>
-          <td class="selectorvalue"><p>.index</p> will match any element that has the class of "index".</td>
+          <td class="description">Selects all elements that have the given <p class="attribute">class</p> attribute.
+          </td>
+          <td class="cssexample">
+            <p>.classname</p>
+          </td>
+          <td class="selectorvalue">
+            <p>.index</p> will match any element that has the class of "index".
+          </td>
         </tr>
 
         <tr>
           <td class="property">ID Selector</td>
-          <td class="description">Selects an element based on the value of its <p>id</p> attribute. There should be only one element with a given ID in a document.</td>
-          <td class="cssexample"><p>#idname</p></td>
-          <td class="selectorvalue"><p>#toc</p> will match the element that has the ID "toc".</td>
+          <td class="description">Selects an element based on the value of its <p>id</p> attribute. There should be only
+            one element with a given ID in a document.</td>
+          <td class="cssexample">
+            <p>#idname</p>
+          </td>
+          <td class="selectorvalue">
+            <p>#toc</p> will match the element that has the ID "toc".
+          </td>
         </tr>
 
         <tr>
           <td class="property">Attribute Selector</td>
           <td class="description">Selects all elements that have the given attribute.</td>
-          <td class="cssexample"><p>[attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]</p></td>
-          <td class="selectorvalue"><p>[autoplay]</p> will match all elements that have the <p class="attribute">autoplay</p>  attribute set (to any value).</td>
+          <td class="cssexample">
+            <p>[attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]</p>
+          </td>
+          <td class="selectorvalue">
+            <p>[autoplay]</p> will match all elements that have the <p class="attribute">autoplay</p> attribute set (to
+            any value).
+          </td>
         </tr>
 
         <tr>
-          <td colspan="4"><h4>Grouping Selector</h4>
+          <td colspan="4">
+            <h4>Grouping Selector</h4>
         </tr>
 
         <tr>
           <td class="property">Selector List</td>
           <td class="description">The <p>,</p> selector is a grouping method that selects all the matching nodes.</td>
-          <td class="cssexample"><p>A, B</p></td>
-          <td class="selectorvalue"><p>div, span</p> will match both <p>&lt;span&gt;</p> and <p>&lt;div&gt;</p> elements.</td>
+          <td class="cssexample">
+            <p>A, B</p>
+          </td>
+          <td class="selectorvalue">
+            <p>div, span</p> will match both <p>&lt;span&gt;</p> and <p>&lt;div&gt;</p> elements.
+          </td>
         </tr>
 
         <tr>
-          <td colspan="4"><h4>Combinators</h4>
+          <td colspan="4">
+            <h4>Combinators</h4>
         </tr>
 
         <tr>
           <td class="property">Descendent Combinator</td>
-          <td class="description">The <p>" "</p> (space) combinator selects nodes that are descendants of the first element.</td>
-          <td class="cssexample"><p>A B</p></td>
-          <td class="selectorvalue"><p>div span</p> will match all <p>&lt;span&gt;</p> elements that are inside a <p>&lt;div&gt;</p> element.</td>
+          <td class="description">The <p>" "</p> (space) combinator selects nodes that are descendants of the first
+            element.</td>
+          <td class="cssexample">
+            <p>A B</p>
+          </td>
+          <td class="selectorvalue">
+            <p>div span</p> will match all <p>&lt;span&gt;</p> elements that are inside a <p>&lt;div&gt;</p> element.
+          </td>
         </tr>
 
         <tr>
           <td class="property">Child Combinator</td>
-          <td class="description">The <p>&gt;</p> combinator selects nodes that are direct children of the first element.</td>
-          <td class="cssexample"><p>A &gt; B</p></td>
-          <td class="selectorvalue"><p>ul &gt; li</p> will match all <p>&lt;li&gt;</p> elements that are nested directly inside an <p>&lt;ul&gt;</p> element.</td>
+          <td class="description">The <p>&gt;</p> combinator selects nodes that are direct children of the first
+            element.</td>
+          <td class="cssexample">
+            <p>A &gt; B</p>
+          </td>
+          <td class="selectorvalue">
+            <p>ul &gt; li</p> will match all <p>&lt;li&gt;</p> elements that are nested directly inside an <p>&lt;ul&gt;
+            </p> element.
+          </td>
         </tr>
 
         <tr>
           <td class="property">General Sibling Combinator</td>
-          <td class="description">The <p>~</p> combinator selects siblings. This means that the second element follows the first (though not necessarily immediately), and both share the same parent.</td>
-          <td class="cssexample"><p>A ~ B</p></td>
-          <td class="selectorvalue"><p>p ~ span</p> will match all <p>&lt;span&gt;</p> elements that follow a <p>&lt;p&gt;</p>, immediately or not.</td>
+          <td class="description">The <p>~</p> combinator selects siblings. This means that the second element follows
+            the first (though not necessarily immediately), and both share the same parent.</td>
+          <td class="cssexample">
+            <p>A ~ B</p>
+          </td>
+          <td class="selectorvalue">
+            <p>p ~ span</p> will match all <p>&lt;span&gt;</p> elements that follow a <p>&lt;p&gt;</p>, immediately or
+            not.
+          </td>
         </tr>
 
         <tr>
           <td class="property">Adjacent Sibling Combinator</td>
-          <td class="description">The <p>+</p> combinator matches the second element only if it immediately follows the first element.</td>
-          <td class="cssexample"><p>A + B</p></td>
-          <td class="selectorvalue"><p>h2 + p</p> will match all <p>&lt;p&gt;</p> elements that immediately follows an <p>&lt;h2&gt;</p> element.</td>
+          <td class="description">The <p>+</p> combinator matches the second element only if it immediately follows the
+            first element.</td>
+          <td class="cssexample">
+            <p>A + B</p>
+          </td>
+          <td class="selectorvalue">
+            <p>h2 + p</p> will match all <p>&lt;p&gt;</p> elements that immediately follows an <p>&lt;h2&gt;</p>
+            element.
+          </td>
         </tr>
 
         <tr>
           <td class="property">Column Combinator</td>
           <td class="description">The <p>||</p> combinator selects nodes which belong to a column.</td>
-          <td class="cssexample"><p>A || B</p></td>
-          <td class="selectorvalue"><p>col || td</p> will match all <p>&lt;td&gt;</p> elements that belong to the scope of <p>&lt;col&gt;</p></td>
+          <td class="cssexample">
+            <p>A || B</p>
+          </td>
+          <td class="selectorvalue">
+            <p>col || td</p> will match all <p>&lt;td&gt;</p> elements that belong to the scope of <p>&lt;col&gt;</p>
+          </td>
         </tr>
 
         <tr>
-          <td colspan="4"><h4>Psuedo</h4>
+          <td colspan="4">
+            <h4>Psuedo</h4>
         </tr>
 
         <tr>
           <td class="property">Psuedo Classes</td>
-          <td class="description">The <p>:</p> pseudo selector allows the selection of elements based on state information that is not contained in the document tree.</td>
-          <td class="cssexample"><p>a:visited</p></td>
-          <td class="selectorvalue"><p>a:visited</p> will match all <p>&lt;a&gt;</p> elements that have been visited by the user.</td>
+          <td class="description">The <p>:</p> pseudo selector allows the selection of elements based on state
+            information that is not contained in the document tree.</td>
+          <td class="cssexample">
+            <p>a:visited</p>
+          </td>
+          <td class="selectorvalue">
+            <p>a:visited</p> will match all <p>&lt;a&gt;</p> elements that have been visited by the user.
+          </td>
         </tr>
 
         <tr>
           <td class="property">Psuedo Elements</td>
           <td class="description">The <p>::</p> pseudo selector represents entities that are not included in HTML.</td>
-          <td class="cssexample"><p>p::first-line</p></td>
-          <td class="selectorvalue"><p>p::first-line</p> will match the first line of all <p>&lt;p&gt;</p> elements</td>
+          <td class="cssexample">
+            <p>p::first-line</p>
+          </td>
+          <td class="selectorvalue">
+            <p>p::first-line</p> will match the first line of all <p>&lt;p&gt;</p> elements
+          </td>
         </tr>
 
-        </tbody>
-      </table>
-    </section>
-    <br>
-    <br>
-    <br>
+      </tbody>
+    </table>
+  </section>
+  <br>
+  <br>
+  <br>
 
-  </body>
+</body>
+
 </html>
