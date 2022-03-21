@@ -2,7 +2,7 @@ body {
     background-color: darkcyan;
   }
 
-header {
+h1 {
     color: darkcyan;
     font-family: "Corben", serif;
     text-align: center;
@@ -13,7 +13,7 @@ header {
     padding-bottom: 5px;
 }
   
-h1 {
+h2 {
     font-family: "Red Hat Mono", monospace;
     color: DarkSlateGrey;
     text-align: center;
@@ -24,14 +24,16 @@ h1 {
     letter-spacing: 3px;
   }
   
-h2 {
+h3 {
     color: Teal;
     font-family: "Lora", serif;
     text-align: center;
     font-size: 30px;
     background-color: Bisque;
     border-bottom: 15px solid LightSeaGreen;
-    padding: 10px;
+    padding: 10px 0px 10px;
+    width: 100%;
+    margin: 0 auto;
   }
 
 [colspan] {
@@ -57,6 +59,7 @@ b {
   
 table {
     border-spacing: 0;
+    border: .5px solid black;
   }
   
 th {
@@ -64,10 +67,10 @@ th {
     background-color: rgb(187, 159, 107);
     color: DarkSlateGrey;
     padding: 5px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;  
-    border-left: 1px solid black; 
+    border-bottom: .5px solid black;
+    border-right: .5px solid black;
+    border-top: .5px solid black;  
+    border-left: .5px solid black; 
     font-size: 22px;
   }
   
@@ -91,6 +94,7 @@ td {
     font-weight: bold;
     width: 100px;
     border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
     padding: 10px;
   }
   
@@ -125,14 +129,14 @@ td {
   }
   
 .string {
-    color: GoldenRod;
+    color: DarkGoldenRod;
     font-family: "Red Hat Display", sans-serif;
   }
   
 .result {
     color: black;
     font-family: "Libre Baskerville", serif;
-    line-height: 1.5;
+    line-height: 0.7;
   }
 
 .property {
@@ -142,6 +146,7 @@ td {
     font-family: "Red Hat Mono", monospace;
     width: 200px;
     border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
     padding: 10px;
     
   }
@@ -186,12 +191,6 @@ td {
     font-weight: 600;
     line-height: 1.5;
     vertical-align: text-top;
-}
-
-.container {
-    width: 65%;
-    margin: 0 auto;
-    box-shadow: rgba(76, 76, 93, 0.89) 0px 7px 29px 0px;
 }
 
 .headercontainer {
